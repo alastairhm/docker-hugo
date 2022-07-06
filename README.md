@@ -6,12 +6,12 @@ Docker image with Hugo installed
 
 
 ```bash
-docker run --rm -ti -v $(pwd):/mnt ghcr.io/alastairhm/docker-hugo:latest
+docker run --rm -ti -v $(pwd):/mnt -p 1313:1313 ghcr.io/alastairhm/docker-hugo:latest
 ```
 
 Alias
 ```bash
-alias hugo='docker run --rm -ti -v $(pwd):/mnt ghcr.io/alastairhm/docker-hugo:latest'
+alias hugo='docker run --rm -ti -v $(pwd):/mnt -p 1313:1313 ghcr.io/alastairhm/docker-hugo:latest'
 ```
 
 ```text
