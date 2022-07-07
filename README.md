@@ -2,7 +2,7 @@
 
 ## A Docker image with Hugo Blogging App
 
-Docker image with Hugo installed
+Docker image with [Hugo](https://github.com/gohugoio/hugo.git) installed.
 
 
 ### Run CLI directly
