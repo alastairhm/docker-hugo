@@ -4,6 +4,8 @@
 
 Docker image with [Hugo](https://github.com/gohugoio/hugo.git) installed.
 
+[![Docker](https://github.com/alastairhm/docker-hugo/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/alastairhm/docker-hugo/actions/workflows/docker-publish.yml)
+
 
 ### Run CLI directly
 
